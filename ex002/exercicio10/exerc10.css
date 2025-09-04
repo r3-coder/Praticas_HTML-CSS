@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(88, 139, 11);
+}
+h1:hover{
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+transform: scale(1.03);
+color: rgb(80, 186, 80)
+}

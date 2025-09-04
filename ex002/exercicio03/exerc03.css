@@ -1,0 +1,9 @@
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: transform 0.3s;
+    color: red
+}

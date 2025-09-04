@@ -1,0 +1,19 @@
+.secao {
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.secao1 {
+  background-color: #308ade;
+}
+
+.secao2 {
+  background-color: #1fdd25;
+}
+
+.secao3 {
+  background-color: #e6d130;
+}

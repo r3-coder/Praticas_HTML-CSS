@@ -1,0 +1,31 @@
+input[type="text"],
+input[type="email"] {
+    width: 250px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+div {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* ocupa a altura total da tela */
+
+
+}
+body{
+    background-color: blueviolet;
+}

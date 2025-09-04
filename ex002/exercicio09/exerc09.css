@@ -1,0 +1,55 @@
+/* Layout Flexbox */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.img img {
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+
+}
+.img img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+.img img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablets: 2 por linha */
+@media (max-width: 768px) {
+  .img img {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+/* Celulares: 1 por linha */
+@media (max-width: 480px) {
+  .img img {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
